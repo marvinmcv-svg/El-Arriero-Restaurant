@@ -52,3 +52,17 @@ prompt
 server.log
 # Skills directory
 /skills/
+
+# Database files (local SQLite)
+/db/*.db
+/db/*.db-journal
+
+# Process / runtime files
+/.zscripts/
+
+# Upload / scratch folders
+/upload/
+/download/
+
+# Worklog (internal orchestration)
+worklog.md
